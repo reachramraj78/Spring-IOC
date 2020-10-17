@@ -1,6 +1,6 @@
 # Spring Tutorial - with Examples
 
-## TOC
+### TOC
 		- [Section 1 Introduction](#section-1-introduction)
 		- [Section 2  Why is Spring Popular?](#section-2--why-is-spring-popular)
 		- [Section 3  First Example](#section-3-first-example)
