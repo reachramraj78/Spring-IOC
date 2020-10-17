@@ -20,13 +20,13 @@ https://github.com/gbalaji1/spring
 
 ### Section 1 Introduction
 Introduction to the Course
--Spring is a light weight and open source framework created by Rod Johnson in 2003. 
--Spring reduces the complexity of enterprise java applications. 
--Spring is a complete and a modular framework, i mean spring framework can be used for all layer implementations for a real time application or spring can be used for the development of particular layer of a real time application unlike struts [ only for front end related ] and hibernate [ only for database related ], but with spring we can develop all layers
--Spring framework is said to be a non-invasive means it doesn’t force a programmer to extend or implement their class from any predefined class or interface given by Spring API, in struts we used to extend Action Class right that’s why struts is said to be invasive
--In case of struts framework, it will forces the programmer that, the programmer class must extend from the base class provided by struts API
--Spring is light weight framework.
--Spring Framework made J2EE application development little easier.
+- Spring is a light weight and open source framework created by Rod Johnson in 2003. 
+- Spring reduces the complexity of enterprise java applications. 
+- Spring is a complete and a modular framework, i mean spring framework can be used for all layer implementations for a real time application or spring can be used for the development of particular layer of a real time application unlike struts [ only for front end related ] and hibernate [ only for database related ], but with spring we can develop all layers
+- Spring framework is said to be a non-invasive means it doesn’t force a programmer to extend or implement their class from any predefined class or interface given by Spring API, in struts we used to extend Action Class right that’s why struts is said to be invasive
+- In case of struts framework, it will forces the programmer that, the programmer class must extend from the base class provided by struts API
+- Spring is light weight framework.
+- Spring Framework made J2EE application development little easier.
 
 ### Section 2  Why is Spring Popular?
 
