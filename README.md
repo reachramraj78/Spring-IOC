@@ -20,17 +20,19 @@ https://github.com/gbalaji1/spring
 
 ### Section 1 Introduction
 - Introduction to the Course
-
-Spring reduces the complexity of enterprise java applications. Incredibly modular architecture of spring helps in picking and choosing the right spring modules to use to suit our needs. Spring reduces the cost of programming to interfaces to almost zero.
+		-Spring is a light weight and open source framework created by Rod Johnson in 2003. 
+		-Spring reduces the complexity of enterprise java applications. 
+		-Spring is a complete and a modular framework, i mean spring framework can be used for all layer implementations for a real time application or spring can be used for the development of particular layer of a real time application unlike struts [ only for front end related ] and hibernate [ only for database related ], but with spring we can develop all layers
+		-Spring framework is said to be a non-invasive means it doesn’t force a programmer to extend or implement their class from any predefined class or interface given by Spring API, in struts we used to extend Action Class right that’s why struts is said to be invasive
+		-In case of struts framework, it will forces the programmer that, the programmer class must extend from the base class provided by struts API
+		-Spring is light weight framework.
+		-Spring Framework made J2EE application development little easier.
 
 ### Section 2  Why is Spring Popular?
 
-We love looking at the big picture. Before we start with getting into technical details and getting our hands dirty, lets look at few of the things Spring helps with. 
+Spring having this much of demand because of the following reasons….
 
-Spring is one of the first layer independent frameworks.
-
-The things discussed here are dependent on one another. Unit Testing builds up Loose Coupling. Architecture Flexibility is a result of Spring Modules.
-
+- Spring is one of the first layer independent frameworks.
 - Dependency Injection
 - Loose Coupling
 - Spring Modules
@@ -39,9 +41,10 @@ The things discussed here are dependent on one another. Unit Testing builds up L
 
 ### Section 3  First Example
 - Basic Example
-- Clean up 
+
 
 ### Section 4  Basic Concepts
+- Constructor Setter Injection
 - Component
 - Service
 - Component Scan
@@ -49,39 +52,19 @@ The things discussed here are dependent on one another. Unit Testing builds up L
 
 ### Section 5 Real world Example 
 - Advanced Example
-- Clean up
+
 
 ### Section 6  Advanced Concepts
 - Application Context
 - Bean Factory
 - Bean Scope
-- Constructor Setter Injection
 - Debugging 
 
 ### Section 7  Spring Modules
 - MVC
 - JDBC
+- ORM
 - AOP
 - Test
-- XML
-
-## Spring MVC
-
-### Steps 1 to 7 - Build a normal Web Application
-- Understand Basics of HTTP 
-- HttpRequest - GET/POST, Request Parameters
-- HTTP Response - Response Status - 404,200,500 etc
-- Introduction to JSP, Servlets,  Scriptlets and EL
-- HTML Form -  Method, Action & Form Data
-- Understand Basics of using Maven, Tomcat and Eclipse
-- Using Request Attributes for passing Model between Servlet and View
-
-### Steps 11 to 17 : Use Spring MVC to Build Your First Web Application
-- Step 11 : Configure application to use Spring MVC
-- Step 12 : First Spring MVC Controller, @ResponseBody, @Controller
-- Step 13 : Redirect to Login JSP - LoginController, @ResponseBody and View Resolver
-- Step 14 : DispatcherServlet and Log4j
-- Step 15 : Show userid and password on the welcome page - ModelMap and @RequestParam 
-- Step 16 : LoginService and Remove all JEE Servlets based code
-- Step 17 : Spring Auto-wiring and Dependency Management - @Autowired and @Service
+- Rest
 
