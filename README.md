@@ -1,15 +1,15 @@
 # Spring Tutorial - with Examples
 
-### TOC
-		- [Section 1 Introduction](#section-1-introduction)
-		- [Section 2  Why is Spring Popular?](#section-2--why-is-spring-popular)
-		- [Section 3  First Example](#section-3-first-example)
-		- [Section 4  Basic Concepts](#section-4-basic-concepts)
-		- [Section 5 Real world Example](#section-5-real-world-example)
-		- [Section 6  Advanced Concepts](#section-6-advanced-concepts)
-		- [Section 7  Spring Modules](#section-7--spring-modules)
-		- [Section 8 Spring in Real World](#section-8-spring-in-real-world)
-		- [Section 9 Let's meet again](#section-9-lets-meet-again)
+## TOC
+- [Section 1 Introduction](#section-1-introduction)
+- [Section 2  Why is Spring Popular?](#section-2--why-is-spring-popular)
+- [Section 3  First Example](#section-3-first-example)
+- [Section 4  Basic Concepts](#section-4-basic-concepts)
+- [Section 5 Real world Example](#section-5-real-world-example)
+- [Section 6  Advanced Concepts](#section-6-advanced-concepts)
+- [Section 7  Spring Modules](#section-7--spring-modules)
+- [Section 8 Spring in Real World](#section-8-spring-in-real-world)
+- [Section 9 Let's meet again](#section-9-lets-meet-again)
 
 
 
