@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id="employeeDAO" class="com.balaji.crud.dao.EmployeeDAO"></bean>
+   
+   <bean id="addressDAO" class="com.balaji.crud.dao.AddressDAO"></bean>
+   
+   <bean id="managerDAO" class="com.balaji.crud.dao.ManagerDAO"></bean>
+   
+   <bean id="departmentDAO" class="com.balaji.crud.dao.DepartmentDAO"></bean>
+   
+   
+   <bean id="employeeService" class="com.balaji.crud.service.EmployeeService" autowire="constructor">
+       <!-- <property name="employeeDAO" ref="employeeDAO"></property>
+       <property name="addressDAO" ref="addressDAO"></property>
+       <property name="managerDAO" ref="managerDAO"></property>
+       <property name="departmentDAO" ref="departmentDAO"></property> -->
+   </bean>
+   
+   <bean id="employeeController" class="com.balaji.crud.controller.EmployeeController" autowire="byName">
+       <!-- <property name="employeeService" ref="employeeService"></property> -->
+   </bean>
+</beans>
