@@ -1,43 +1,41 @@
 package com.balaji.bean;
 
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.annotation.Required;
 
 public class Employee {
-	@Value("1001")
-	private int eid;
-    @Value("Balaji")
-	private String ename;
-
-	public Employee(int eid, String ename) {
-		super();
-		this.eid = eid;
-		this.ename = ename;
-	}
-
-	public Employee() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 	
+	private int eid;
+	private String ename;
+	
+	private Address address;
+	
+	
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 	public int getEid() {
 		return eid;
 	}
-	
 	public void setEid(int eid) {
 		this.eid = eid;
 	}
-
+	
 	public String getEname() {
 		return ename;
 	}
-
+	@Required
 	public void setEname(String ename) {
 		this.ename = ename;
 	}
-
 	@Override
 	public String toString() {
-		return "Employee [eid=" + eid + ", ename=" + ename + "]";
+		return "Employee [eid=" + eid + ", ename=" + ename + ", address=" + address + "]";
 	}
+	
+	
+	
 
 }

@@ -15,8 +15,8 @@
 	       <property name="aloc" value="SKLM"></property>
 	</bean>
 	<bean id="employee" class="com.balaji.bean.Employee">
-		<property name="eid" value="1001"></property>
+		<!-- <property name="eid" value="1001"></property> -->
 		<property name="ename" value="Balaji"></property>
-		<property name="address" ref="address"></property>
+		<!-- <property name="address" ref="address"></property> -->
 	</bean>
 </beans>
